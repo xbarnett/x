@@ -1,0 +1,4 @@
+name: x
+depend:
+include: .
+flags: --cubical --exact-split --no-import-sorts --no-unicode --safe
