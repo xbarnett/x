@@ -5,6 +5,9 @@ module X.Games.BitFlip where
     zero : state
     one : state
 
+  initial-state : state
+  initial-state = zero
+
   data move : type-zero where
     flip : move
 
